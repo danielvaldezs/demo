@@ -1,14 +1,113 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "catalago": {
+    "pelicula": [
+      {
+        "actores": {
+          "bio": "Tiene dos oscar",
+          "email": "soyleodicaprio@gmail.com",
+          "fecha": "fechita",
+          "foto": "dicaprio.jpg",
+          "nombre": "Leonardo Dicaprio"
+        },
+        "descripcion": "Muy buena pelicula de leonardo dicaprio",
+        "poster": "gatsby.jpg",
+        "titulo": "The great gatsby",
+        "website": "greatgatsby.com",
+        "youtubeRed": "youtube.com/greatgatsby"
+      },
+      {
+        "actores": [
+          {
+            "bio": "Acutua como capitan america",
+            "email": "elcapi@gmail.com",
+            "fecha": "datefecha",
+            "foto": "capitan.jpg",
+            "nombre": "Steve Rogers"
+          },
+          {
+            "bio": "Es un actor estadounidense, nominado en dos ocasiones a los premios Ã“scar y ganador de dos Globos de Oro",
+            "email": "ironman@contact.com",
+            "fecha": "dainacimiento",
+            "foto": "tonystark.jpg",
+            "nombre": "Robert Downey"
+          }
+        ],
+        "descripcion": "Es una pelÃ­cula estadounidense de superhÃ©roes de 2018, basada en el equipo de superhÃ©roes de Marvel Comics los Vengadores",
+        "poster": "avengers.jpg",
+        "titulo": "Avengers Infinity War",
+        "website": "Avengersinfinitywar.com",
+        "youtubeRed": "youtube.com/losvengadores"
+      },
+      {
+        "actores": [
+          {
+            "bio": "one of the protagonists of tron legacy",
+            "email": "tronactor@gmail.com",
+            "fecha": "datefecha",
+            "foto": "bridges.jpg",
+            "nombre": "Jeff Bridges"
+          },
+          {
+            "bio": "Hes known for his role in tron legacy",
+            "email": "johnhedlundr@contact.com",
+            "fecha": "diadenac",
+            "foto": "personajetron.jpg",
+            "nombre": "Garrett John Hedlund"
+          }
+        ],
+        "descripcion": "Daft Punk produces the soundtrack",
+        "poster": "tron.jpg",
+        "titulo": "Tron Legacy",
+        "website": "tronlegacy.com",
+        "youtubeRed": "youtubeRed.com/tron"
+      },
+      {
+        "actores": [
+          {
+            "bio": "Lionsgate anunciÃ³ que Hutcherson habÃ­a sido elegido como Peeta Mellark",
+            "email": "contact@gmail.com",
+            "fecha": "somedate",
+            "foto": "josh.jpg",
+            "nombre": "Josh Hutcherson"
+          },
+          {
+            "bio": "academy award winner",
+            "email": "jenniferlawrence@contact.com",
+            "fecha": "borndate",
+            "foto": "jennifer.jpg",
+            "nombre": "Jennifer Lawrence"
+          }
+        ],
+        "descripcion": "Los juegos del hambre tratan temas como la pobreza extrema y el hambre. La historia es narrada en primera persona desde la perspectiva de Katniss Everdeen",
+        "poster": "Poster.png",
+        "titulo": "Juegos del Hambre",
+        "website": "juegosdelhambre.com",
+        "youtubeRed": "youtube.com/juegoshambre"
+      },
+      {
+        "actores": [
+          {
+            "bio": "English-American actor and producer",
+            "email": "contact@christianbale.com",
+            "fecha": "date",
+            "foto": "christian.jpg",
+            "nombre": "Christian Bale"
+          },
+          {
+            "bio": "Best Joker in history",
+            "email": "thejoker@contact.com",
+            "fecha": "august",
+            "foto": "joker.jpg",
+            "nombre": "Heath Ledger"
+          }
+        ],
+        "descripcion": "Con la ayuda del teniente de policia James Gordon y el recientemente elegido fiscal del distrito Harvey Dent, Batman eleva la apuesta en su guerra contra el crimen al proponerse desmantelar los grupos mafiosos restantes que plagan las calles",
+        "poster": "batman.jpg",
+        "titulo": "Batman: The Dark Knight",
+        "website": "thedarknight.com",
+        "youtubeRed": "youtube.com/red/batmanthedarkknight"
+      }
+    ]
   }
 }
+
